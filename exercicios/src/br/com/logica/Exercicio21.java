@@ -15,7 +15,6 @@ public class Exercicio21 {
 		int saude;
 		int totalQuePodemServir = 0;
 		int totalQueNaoPodemServir = 0;
-		boolean podeCumprirServicoMilitar;
 		String servicoMilitar;
 		Random aleatorio = new Random();
 		int pessoas = Integer.parseInt(JOptionPane.showInputDialog("digite o numero de pessoas"));
@@ -30,9 +29,8 @@ public class Exercicio21 {
 			}
 			idade = aleatorio.nextInt(100);
 			saude = aleatorio.nextInt(100);
-			podeCumprirServicoMilitar = aleatorio.nextBoolean();
 
-			if (podeCumprirServicoMilitar == true && idade >= 18 && idade <= 59 && saude >= 60) {
+			if (idade >= 18 && idade <= 23 && saude >= 60) {
 				totalQuePodemServir++;
 				servicoMilitar = "Sim";
 			} else {
