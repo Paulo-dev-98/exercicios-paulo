@@ -18,7 +18,7 @@ public class ExercicioPoema {
 		System.out.println("-----------------------------------------------------------------------------------");
 		System.out.println("===================Dica do primeiro digito: sou o sucessor do primordio e dou sentido ao nada================");
 		System.out.println("-------------------------------------------------------------------------------------------------------------");
-		System.out.println("===================Dica do segundo digito: Em pe só posso ver o que está a frente mas se me deito posso ver as estrelas================");
+		System.out.println("===================Dica do segundo digito: Em pe só posso ver o que está a frente mas se me deito \nposso ver as estrelas===================================================================");
 		System.out.println("----------------------------------------------------------------------------------");
 		System.out.println("============================Boa Sorte! As tentativas são ilimitadas================");
 		System.out.println("----------------------------------------------------------------------------------");
