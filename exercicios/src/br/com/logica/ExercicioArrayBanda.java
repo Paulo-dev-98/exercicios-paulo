@@ -111,15 +111,11 @@ public class ExercicioArrayBanda {
 						JOptionPane.showInputDialog("erro", e);
 					}
 					break;
-
 				}
-
 			} else {
 				System.out.println("----------------------------------------------");
 				System.out.println("sair \nAte Logo, Foi Um prazer curtir rock com você!");
 			}
-
 		}
-
 	}
 }
