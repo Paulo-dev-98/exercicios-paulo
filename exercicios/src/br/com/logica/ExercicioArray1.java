@@ -10,7 +10,7 @@ public class ExercicioArray1 {
 	 */
 
 	/*
-	 * O programa lê três valores e mostra em ordem ascendente ou decrescente se não
+	 * O programa lê três valores e mostra em ordem crescente ou decrescente se não
 	 * estiver em nenhuma das duas, ele simplismente mostrara uma mensagem que não
 	 * esta em nenhuma das ordens mencionadas acima.
 	 */
@@ -27,7 +27,7 @@ public class ExercicioArray1 {
 		}
 
 		if (numeros[0] < numeros[1] && numeros[2] > numeros[1]) {
-			System.out.println("os numeros em ordem ascendente são:");
+			System.out.println("os numeros em ordem crescente são:");
 			for (int elementos : numeros) {
 				System.out.println("-------------------------------------");
 				System.out.println(elementos);
@@ -40,7 +40,7 @@ public class ExercicioArray1 {
 			}
 		} else {
 			System.out.println("----------------------------------------------------------");
-			System.out.println("Os numeros não estão em ordem ascendente e nem decrescente");
+			System.out.println("Os numeros não estão em ordem crescente e nem decrescente");
 		}
 		teclado.close();
 	}
