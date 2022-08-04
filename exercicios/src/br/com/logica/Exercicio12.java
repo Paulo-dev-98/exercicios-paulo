@@ -10,10 +10,15 @@ public class Exercicio12 {
 		double impostoDaDistribuidora = precoDeCusto * 0.28;
 		double valorFinalDoCarro = precoDeCusto + impostoDaFabrica + impostoDaDistribuidora;
 		
-		System.out.println("O preço de custo do carro é: " + precoDeCusto);
-		System.out.println("O valor do imposto da fabrica é: " + impostoDaFabrica);
-		System.out.println("O valor do imposto da distribuidora é: " + impostoDaDistribuidora);
-		System.out.println("O valor final do carro é: " + valorFinalDoCarro);
+		System.out.println("----------------------------------------------------------");
+		System.out.println("O preço de custo do carro é: R$" + precoDeCusto);
+		System.out.println("----------------------------------------------------------");
+		System.out.println("O valor do imposto da fabrica é: R$" + impostoDaFabrica);
+		System.out.println("----------------------------------------------------------");
+		System.out.println("O valor do imposto da distribuidora é: R$" + impostoDaDistribuidora);
+		System.out.println("----------------------------------------------------------");
+		System.out.println("O valor final do carro é: R$" + valorFinalDoCarro);
+		System.out.println("----------------------------------------------------------");
 
 	}
 

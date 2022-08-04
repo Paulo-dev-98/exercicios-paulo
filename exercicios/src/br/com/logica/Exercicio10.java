@@ -7,7 +7,8 @@ public class Exercicio10 {
          
 		double valorDaCompra = Double.parseDouble(JOptionPane.showInputDialog("digite o valor da compra"));
 		double numeroDeParcelas = valorDaCompra/5;
+		System.out.println("----------------------------------------------------");
 		System.out.println("sua compra foi dividida em cinco parcelas de: " + numeroDeParcelas);
-		
+		System.out.println("----------------------------------------------------");
 	}
 }

@@ -10,11 +10,17 @@ public class Exercicio4 {
 		double comisao = ValorDasVendasEfeutadas * 0.15;
 		double salarioFinal = salario + comisao;
 		
+		System.out.println("------------------------------------------------------------------------");
 		System.out.println("O nome do vendedor é: " + nome);
+		System.out.println("------------------------------------------------------------------------");
 		System.out.println("O salario fixo do vendedor é: " + salario);
+		System.out.println("------------------------------------------------------------------------");
 		System.out.println("O valor de vendas em dinheiro do vendodor é: R$" +ValorDasVendasEfeutadas);
+		System.out.println("------------------------------------------------------------------------");
 		System.out.println("O valor da comissão é: " + comisao);
-		System.out.println("O salario final do vendedor com a comissao é:" + salarioFinal);
+		System.out.println("------------------------------------------------------------------------");
+		System.out.println("O salario final do vendedor com a comissao é: " + salarioFinal);
+		System.out.println("------------------------------------------------------------------------");
 	}
 
 }

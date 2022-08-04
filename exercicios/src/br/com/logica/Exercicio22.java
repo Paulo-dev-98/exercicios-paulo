@@ -1,17 +1,19 @@
 package br.com.logica;
 
+import java.text.DecimalFormat;
 import java.util.Random;
 
 public class Exercicio22 {
 	
 	public static void main(String[] args) {
 		
-		String[] nomeDoProduto = new String[39];
-		double[] precoDeCusto = new double[39];
-		double[] precoDeVenda = new double[39];
+		String[] nomeDoProduto = new String[40];
+		double[] precoDeCusto = new double[40];
+		double[] precoDeVenda = new double[40];
 		double valorTotalDeCusto = 0;
 		double valorTotalDeVenda = 0;
 		Random aleatorio = new Random();
+		DecimalFormat formatador = new DecimalFormat("#,##0.00");
 		
 		for (int i = 0; i < nomeDoProduto.length; i++) {
             nomeDoProduto[i] = "produto " + (i + 1);
@@ -24,6 +26,7 @@ public class Exercicio22 {
             } else {
             	precoDeVenda[i] = precoDeCusto[i] + (precoDeCusto[i] * 0.10);
             }
+            System.out.println("---------------------------");
 			System.out.println(nomeDoProduto[i] + " - " + precoDeCusto[i] + " - " +  precoDeVenda[i]);
 		}
 		
@@ -33,15 +36,24 @@ public class Exercicio22 {
 		}
 		
 		if(valorTotalDeCusto > valorTotalDeVenda) {
-			System.out.println("prejuizo de: " + (valorTotalDeVenda - valorTotalDeCusto));
+			System.out.println("-----------------------------");
+			System.out.println("prejuizo de: " + formatador.format(valorTotalDeVenda - valorTotalDeCusto));
+			System.out.println("-----------------------------");
 		} else if(valorTotalDeVenda > valorTotalDeCusto) {
-			System.out.println("lucro de: " + (valorTotalDeVenda - valorTotalDeCusto));
+			System.out.println("-----------------------------");
+			System.out.println("lucro de: " + formatador.format(valorTotalDeVenda - valorTotalDeCusto));
+			System.out.println("-----------------------------");
 		} else {
+			System.out.println("-----------------------------");
 			System.out.println("empate");
+			System.out.println("--------------------------------");
 		}
 		
-		System.out.println("a media do valor de custo é: " + (valorTotalDeCusto/40));
-		System.out.println("a media do valor de venda é: " + (valorTotalDeVenda/40));
+		System.out.println("a media do valor de custo é: " + formatador.format(valorTotalDeCusto/40));
+		System.out.println("------------------------------------");
+		System.out.println("a media do valor de venda é: " + formatador.format(valorTotalDeVenda/40));
+		System.out.println("------------------------------------");
+		
 		
 		// Entrada: 40 produtos (preço de custo e preço venda)
 		// Processamento: preciso do lucro, prejuizo ou empate

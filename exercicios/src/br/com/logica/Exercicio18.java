@@ -17,17 +17,19 @@ public class Exercicio18 {
 			String nome = "pessoa" + (i + 1);
 			if (idade < 18) {
 				menorIdade++;
+				System.out.println("-------------------------");
 				System.out.println(nome + " é menor de idade");
 			} else {
 				maiorIdade++;
+				System.out.println("-------------------------");
 				System.out.println(nome + " é maior de idade");
 			}
           
 		}
-      
+		System.out.println("-------------------------------");
 		System.out.println(menorIdade + " pessoas são menores de idade\n"
 		+ maiorIdade + " pessoas são maiores de idade" );
-		
+		System.out.println("-------------------------------");
 	}
 
 }

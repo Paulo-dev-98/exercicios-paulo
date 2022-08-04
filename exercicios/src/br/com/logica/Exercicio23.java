@@ -10,14 +10,22 @@ public class Exercicio23 {
 
 		if (numero > 80 || numero < 25 || numero == 40) {
 			if (numero > 80) {
+				System.out.println("========================");
 				System.out.println("numero é maior do que 80");
+				System.out.println("========================");
 			} else if (numero < 25) {
+				System.out.println("=====================");
 				System.out.println("numero é menor que 25");
+				System.out.println("=====================");
 			} else if (numero == 40) {
+				System.out.println("===================");
 				System.out.println("numero é igual a 40");
+				System.out.println("===================");
 			}
 		} else {
+			System.out.println("=====================================================================");
 			System.out.println("este numero não é maior que 80, não é menor que 25 e não e igual a 40");
+			System.out.println("=====================================================================");
 		}
 
 	}

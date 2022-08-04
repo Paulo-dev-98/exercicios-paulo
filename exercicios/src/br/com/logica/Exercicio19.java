@@ -15,15 +15,17 @@ public class Exercicio19 {
 			String nome = "pessoa " + (i + 1);
 			if (sexo == 0) {
 				homens++;
+				System.out.println("----------------------");
 				System.out.println(nome + " é um homem");
 			} else {
 				mulheres++;
+				System.out.println("----------------------");
 				System.out.println(nome + " é uma mulher");
 			}
 		}
-
+		System.out.println("-----------------------");
 		System.out.println(homens + " pessoas são homens\n" + mulheres + " pessoas são mulheres");
-
+		System.out.println("-----------------------");
 	}
 
 }

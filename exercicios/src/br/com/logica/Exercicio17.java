@@ -13,14 +13,16 @@ public class Exercicio17 {
 			int numero = aleatorio.nextInt(500);
 			if (numero >= 10 && numero <= 150) {
 				quantidadeIntervalo++;
+				System.out.println("================================================");
 				System.out.println("esse numero pertence ao grupro entre 10 e 150");
 			} else {
+				System.out.println("================================================");
 				System.out.println("esse numero não pertence ao grupo entre 10 e 150");
 			}
 		}
-
+		System.out.println("==============================================================");
 		System.out.println("dentro de 80 numero a quantidade que esta entre 10 e 150 é: " + quantidadeIntervalo);
-
+		System.out.println("==============================================================");
 	}
 
 }

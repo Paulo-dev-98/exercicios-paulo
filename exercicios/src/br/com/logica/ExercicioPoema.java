@@ -26,9 +26,13 @@ public class ExercicioPoema {
 			System.out.println("lamento mas esse não é o numero");
 			System.out.println("------------------------------------------------------------------------------");
 			if (numero > numeroGerado) {
+				System.out.println("=========================");
 				System.out.println("o numero digitado é maior");
+				System.out.println("=========================");
 			} else {
+				System.out.println("=========================");
 				System.out.println("o numero digitado é menor");
+				System.out.println("=========================");
 			}
 			numero = Integer.parseInt(JOptionPane.showInputDialog(""));
 		}

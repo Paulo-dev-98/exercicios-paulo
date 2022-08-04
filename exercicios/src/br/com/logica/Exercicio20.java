@@ -36,19 +36,27 @@ public class Exercicio20 {
 			valorDesconto = valor[escolha - 1] * 0.07;
 		}
 		
+		System.out.println("===========================");
 		System.out.println("deseja aplicar o desconto? ");
+		System.out.println("===========================");
 		teclado.nextLine();
 		String opcao = teclado.nextLine();
 		
         while(opcao.equalsIgnoreCase("S")) {
         	ValorCarroComDesconto = valor[escolha - 1] - valorDesconto;
+        	System.out.println("=======================================");
         	System.out.println("deseja continuar aplicando o desconto? ");
+        	System.out.println("=======================================");
         	opcao = teclado.nextLine();
         }
 		teclado.close();
+		System.out.println("----------------------------------------------");
         System.out.println("o valor do carro " + carros[escolha - 1] + " é igual " + formatador.format(valor[escolha -1]));
+        System.out.println("----------------------------------------------");
         System.out.println("o valor do desconto a ser aplicado é " + formatador.format(valorDesconto));
+        System.out.println("----------------------------------------------");
         System.out.println("o valor do carro com o desconto é: " + formatador.format(ValorCarroComDesconto));
+        System.out.println("----------------------------------------------");
         
 	}
 

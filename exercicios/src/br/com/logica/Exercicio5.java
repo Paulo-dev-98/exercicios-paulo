@@ -18,18 +18,26 @@ public class Exercicio5 {
 		Double terceiraProva = Double.parseDouble(JOptionPane.showInputDialog("digite a nota da terceira prova"));
 		Double mediaDoAluno = (primeiraProva + segundaProva + terceiraProva) / 3;
 		
-		
+		System.out.println("=================================");
 		System.out.println("O nome do aluno é: " + nomeDoAluno);
+		System.out.println("=================================");
 		System.out.println("A nota da primeira prova é: " + primeiraProva);
+		System.out.println("=================================");
 		System.out.println("A nota da segunda prova é: " + segundaProva);
+		System.out.println("=================================");
 		System.out.println("A nota da terceira prova é: " + terceiraProva);
+		System.out.println("=================================");
 		System.out.println("A media total deste aluno é: " + mediaDoAluno);
 		
 		
 		if (mediaDoAluno >= 60) {
+			System.out.println("-------------------------------------");
 			System.out.println("O aluno foi aprovado, Parabéns!");
+			System.out.println("-------------------------------------");
 		} else {
+			System.out.println("-------------------------------------");
 			System.out.println("O aluno foi reprovado, Estude mais!");
+			System.out.println("-------------------------------------");
 		}
 
 	}

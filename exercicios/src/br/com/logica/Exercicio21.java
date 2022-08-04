@@ -40,10 +40,11 @@ public class Exercicio21 {
 
 			System.out.println(nome + ", idade: " + idade + ", sexo: " + indentidade + ", saude: " + saude
 					+ " pode Servir: " + servicoMilitar);
-			System.out.println("------------------------------------------------------------------");
+			System.out.println("-------------------------------------------------------------------");
 		}
 		System.out.println("O Total de pessoas que podem servir é: " + totalQuePodemServir);
 		System.out.println("O Total de pessoas que não podem servir é: " + totalQueNaoPodemServir);
+		System.out.println("-------------------------------------------------------------------");
 	}
 
 }

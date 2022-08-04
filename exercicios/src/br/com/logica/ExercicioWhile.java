@@ -9,11 +9,16 @@ public class ExercicioWhile {
 		String nome = JOptionPane.showInputDialog("digite seu nome");
 		
 		while(!nome.equalsIgnoreCase("s")) {
-			 System.out.println("welcome to the jungle \n" + nome);
+			 System.out.println("================================");
+			 System.out.println("welcome to the jungle " + nome);
+			 System.out.println("================================");
 			 System.out.println("digite outro nome ou s para sair");
+			 System.out.println("================================");
 			 nome = JOptionPane.showInputDialog("");
 		}
+		System.out.println("===============");
 		System.out.println("fim do programa");
+		System.out.println("===============");
 	}
 
 }

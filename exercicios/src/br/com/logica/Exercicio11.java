@@ -11,10 +11,15 @@ public class Exercicio11 {
 		double juros = precoDeCusto * percentualDoJuros;
 		double valorDeVenda = precoDeCusto + juros;
 		
+		System.out.println("----------------------------------------------");
 		System.out.println("O preço de custo do produto é: " + precoDeCusto);
+		System.out.println("----------------------------------------------");
 		System.out.println("O valor do percentual de juros é : " + percentualDoJuros);
+		System.out.println("----------------------------------------------");
 		System.out.println("O valor do juros é: " + juros);
+		System.out.println("----------------------------------------------");
 		System.out.println("O valor final do produto é:  " + valorDeVenda);
+		System.out.println("----------------------------------------------");
 
 	}
 
