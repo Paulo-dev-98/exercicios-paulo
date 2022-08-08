@@ -5,8 +5,10 @@ import java.util.Scanner;
 public class ExercicioInversaoArray {
 
 	public static void main(String[] args) {
+		
+    // criar uma condição que não deixa seguir o programa caso o usuario digite um numero repetido(pendente)
 
-		// Esse exercicio inverte a ordem de um array
+    // Esse exercicio inverte a ordem de um array
 
 		Scanner teclado = new Scanner(System.in);
 		int[] numeros = new int[3];
