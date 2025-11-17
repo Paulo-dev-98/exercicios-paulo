@@ -14,7 +14,11 @@ public class ExercicioPoema {
 		System.out.println("----------------------------------------------------------------------------------");
 		System.out.println("=====Se você ganhar vai poder ver um dos cinco poemas que selecionei pra você=====");
 		System.out.println("----------------------------------------------------------------------------------");
-		System.out.println("===================quero que você me diga um numero de dois digitos===============");
+		System.out.println("===================quero que você me diga um numero entre 0 e 50==================");
+		System.out.println("----------------------------------------------------------------------------------");
+		System.out.println("=========================O objetivo é acertar o numero============================");
+		System.out.println("----------------------------------------------------------------------------------");
+		System.out.println("=Se você errar o sistema vai te dizer se o numero é maior ou menor do que o certo=");
 		System.out.println("----------------------------------------------------------------------------------");
 
 		int numero = Integer.parseInt(JOptionPane.showInputDialog("digite um numero"));
