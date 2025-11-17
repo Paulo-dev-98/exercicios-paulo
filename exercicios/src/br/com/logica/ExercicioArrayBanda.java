@@ -15,7 +15,7 @@ public class ExercicioArrayBanda {
 		int opcaoEscolhida = 0;
 
 		while (opcaoEscolhida != 8) {
-			opcaoEscolhida = JOptionPane.showOptionDialog(null, "O que você deseja ouvir?", "Recando Dev Metal",
+			opcaoEscolhida = JOptionPane.showOptionDialog(null, "O que você deseja ouvir?", "Recanto Dev Metal",
 					JOptionPane.DEFAULT_OPTION, JOptionPane.QUESTION_MESSAGE, null, bandas, 0);
 
 			System.out.println("--------------");
